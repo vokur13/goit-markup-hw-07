@@ -108,7 +108,42 @@ address {
   overflow: hidden;
 }
 
-/* ------------Header------------ */
+/* ------------ Header BEM ------------ */
+
+.header {
+}
+.container {
+}
+.header__container {
+}
+.site-nav {
+}
+.logo {
+}
+.site-nav__logo {
+}
+.logo__accent {
+}
+.site-nav__list {
+}
+.site-nav__item {
+}
+.site-nav__link {
+}
+.site-nav__link--active {
+}
+.studio-contacts {
+}
+.header__studio-contacts {
+}
+.studio-contacts__item {
+}
+.studio-contacts__link {
+}
+.studio-contacts__icon {
+}
+
+/* ------------ Header ------------ */
 
 .brd {
   border-bottom: 1px solid var(--header-border-color);
@@ -234,7 +269,26 @@ address {
   color: var(--accent-color);
 }
 
-/* ------------Principal section - Hero------------ */
+/* ------------ Principal section - Hero BEM ------------ */
+
+.section {
+}
+.hero {
+}
+.container {
+}
+.hero__container {
+}
+.title {
+}
+.hero__title {
+}
+.button {
+}
+.hero__button {
+}
+
+/* ------------ Principal section - Hero ------------ */
 
 .principal-section-title {
   font-weight: 900;
@@ -284,7 +338,36 @@ address {
   text-align: center;
 }
 
-/* ------------Features - Наши преимущества------------ */
+/* ------------ About BEM ------------ */
+
+.section {
+}
+.about {
+}
+.container {
+}
+.about__container {
+}
+.title {
+}
+.section__title {
+}
+.section__title--visually-hidden {
+}
+.about__list {
+}
+.about__item {
+}
+.about__body {
+}
+.about__icon {
+}
+.about__title {
+}
+.about__text {
+}
+
+/* ------------ About ------------ */
 
 .section.features {
   padding-top: 94px;
@@ -344,7 +427,30 @@ address {
   height: 70px;
 }
 
-/* ------------ Tools ------------ */
+/* ------------ Profile BEM ------------ */
+
+.section {
+}
+.profile {
+}
+.container {
+}
+.profile__container {
+}
+.title {
+}
+.section__title {
+}
+.profile__list {
+}
+.profile__item {
+}
+.profile__thumb {
+}
+.profile__text {
+}
+
+/* ------------ Profile ------------ */
 
 .profile {
   padding-bottom: 94px;
@@ -386,6 +492,41 @@ address {
   text-transform: uppercase;
   color: var(--white-color);
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* ------------ Our Team BEM ------------ */
+
+.section {
+}
+.team {
+}
+.container {
+}
+.team__container {
+}
+.title {
+}
+.section__title {
+}
+.team__list {
+}
+.team__item {
+}
+.team__card {
+}
+.team__title {
+}
+.team__occupation {
+}
+.social-netwrk-list {
+}
+.team__social-netwrk-list {
+}
+.social-netwrk-list__item {
+}
+.social-netwrk-list__link {
+}
+.social-netwrk-list__icon {
 }
 
 /* ------------ Our Team ------------ */
@@ -480,6 +621,29 @@ address {
   margin-right: 10px;
 }
 
+/* ------------ Our Clients BEM ------------ */
+
+.section {
+}
+.clients {
+}
+.container {
+}
+.clients__container {
+}
+.title {
+}
+.section__title {
+}
+.clients__list {
+}
+.clients__item {
+}
+.clients__link {
+}
+.clients__icon {
+}
+
 /* ------------ Our Clients ------------ */
 
 .section.clients {
@@ -526,7 +690,66 @@ address {
   height: 60px;
 }
 
-/* ------------ Our Clients ------------ */
+/* ------------ Footer BEM ------------ */
+
+.footer {
+}
+.container {
+}
+.footer__container {
+}
+.contacts {
+}
+.logo {
+}
+.footer__logo {
+}
+.logo__accent {
+}
+.studio-contacts {
+}
+.footer__studio-contacts {
+}
+.studio-contacts__list {
+}
+.studio-contacts__item {
+}
+.studio-contacts__link {
+}
+.follow {
+}
+.follow__text {
+}
+.social-netwrk-list {
+}
+.footer__social-netwrk-list {
+}
+.social-netwrk-list__item {
+}
+.social-netwrk-list__link {
+}
+.social-netwrk-list__icon {
+}
+.sbscrb {
+}
+.sbscrb__text {
+}
+.form-sbscrb {
+}
+.form-sbscrb__label {
+}
+.form-sbscrb__input {
+}
+.button {
+}
+.form-sbscrb__button {
+}
+.button__text {
+}
+.button__icon {
+}
+
+/* ------------ Page Footer ------------ */
 
 .footer {
   padding-top: 60px;
@@ -663,6 +886,51 @@ address {
   height: 24px;
 }
 
+/* ------------ Portfolio BEM ------------ */
+
+.section {
+}
+.portfolio {
+}
+.container {
+}
+.portfolio__container {
+}
+.title {
+}
+.section__title {
+}
+.section__title--visually-hidden {
+}
+.projects-filter {
+}
+.projects-filter__item {
+}
+.button {
+}
+.projects-filter__button {
+}
+.projects {
+}
+.projects__item {
+}
+.projects__link {
+}
+.projects__thumb {
+}
+.projects__dscrpt {
+}
+.projects__text {
+}
+.projects__label {
+}
+.projects__title {
+}
+.projects__division {
+}
+.pprojects__thumb {
+}
+
 /* ------------ Portfolio ------------ */
 
 .portfolio {
@@ -781,6 +1049,19 @@ address {
   border-top: none;
 }
 
+/* ------------ Backdrop Modal BEM ------------ */
+
+.backdrop {
+}
+.is-hidden {
+}
+.modal {
+}
+.modal__button {
+}
+.modal__icon {
+}
+
 /* ------------ Backdrop Modal ------------ */
 
 .backdrop {
@@ -848,7 +1129,42 @@ address {
   cursor: pointer;
 }
 
-/* ------------ Form - Modal ------------ */
+/* ------------ Backdrop Modal Form BEM ------------ */
+
+.form-modal {
+}
+.form-modal__title {
+}
+.label {
+}
+.form-modal__label {
+}
+.label__input {
+}
+.label__text {
+}
+.label__icon {
+}
+.label__pic {
+}
+.label__textarea {
+}
+.label-checkbbox {
+}
+.label-checkbbox__input {
+}
+.label-checkbbox__text {
+}
+.label-checkbbox__link {
+}
+.label-checkbbox__icon {
+}
+.button {
+}
+.form-modal__button {
+}
+
+/* ------------ Backdrop Modal Form ------------ */
 
 .form-mdl {
   height: 100%;
