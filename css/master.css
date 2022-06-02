@@ -17,11 +17,7 @@ ul {
 .section__title {
   color: #fff;
   font-size: 18px;
-}
-
-.header__title {
-  color: aqua;
-  font-size: 24px;
-  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
 }
 /*# sourceMappingURL=master.css.map */
