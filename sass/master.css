@@ -1,10 +1,6 @@
-$color: green;
-$main-width: 100px;
-$secondaryColor: blue;
-
 body {
-  background-color: $color;
-  width: $main-width;
+  background-color: green;
+  width: 100px;
   font-family: sans-serif;
   font-weight: 400;
 }
@@ -13,20 +9,17 @@ ul {
   display: inline;
   list-style: none;
   font-family: 'Courier New', Courier, monospace;
-  background-color: $secondaryColor;
+  background-color: blue;
   font-size: 18px;
   background-image: url();
 }
 
-.section {
-  &__title {
-    color: #fff;
-    font-size: 18px;
-  }
+.section__title {
+  color: #fff;
+  font-size: 18px;
 }
 
 .header__title {
   color: aqua;
   font-size: 24px;
-  font-weight: 600;
 }
