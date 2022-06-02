@@ -1,28 +1,37 @@
-$color: green;
-$main-width: 100px;
-$secondaryColor: blue;
+@import './utils/variables';
+@import './utils/helpers';
+@import './utils/functions';
+@import './utils/mixins';
+@import './utils/icons';
+@import './utils/visually_hidden';
+@import './components/header';
 
 body {
-  background-color: $color;
-  width: $main-width;
-  font-family: sans-serif;
-  font-weight: 400;
+  background-color: $colorBgPrime;
+  font-size: $fontSz;
+  color: bisque;
 }
 
-ul {
-  display: inline;
-  list-style: none;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: $secondaryColor;
-  font-size: 18px;
-  background-image: url();
+p {
+  @include centeredFlex();
+  color: red;
 }
 
-.section {
-  &__title {
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-  }
+.button {
+  @include centeredFlex(inline-flex);
+}
+
+%notification {
+  background-color: aliceblue;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.notification-error {
+  @extend %notification;
+  background-color: green;
+}
+.notification-alert {
+  @extend %notification;
+  background-color: red;
 }

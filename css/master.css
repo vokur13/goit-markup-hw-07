@@ -1,23 +1,195 @@
-body {
+@charset "UTF-8";
+/* Цвет основного текста: #757575 */
+/* Цвет титулов: #212121 */
+/* Акцент: #2196F3 */
+/* Цвет адрессных ссылок: #FFFFFF99 */
+/* Основной цвет фона: #FFFFFF */
+/* Цвет фона вторичный: #F5F4FA */
+/* Минорный цвет фона: #EEEEEE */
+/* Цвет фона Hero: #2f303a */
+/* Белый: rgba(255, 255, 255, 1) */
+/* Цвет фона Footer #2F303A */
+/* Цвет фона Header #fff */
+/* Цвет рамки хедера #ECECEC */
+/* Цвет иконок #AFB1B8 */
+/* Dropbox bgc rgba(0, 0, 0, 0.1) */
+/* Modal bgc #FFFFFF */
+p {
   background-color: green;
-  width: 100px;
-  font-family: sans-serif;
-  font-weight: 400;
 }
 
-ul {
-  display: inline;
-  list-style: none;
-  font-family: 'Courier New', Courier, monospace;
-  background-color: blue;
-  font-size: 18px;
-  background-image: url();
+.social-ntwrk .icon-instargam {
+  background-image: url("../../images/svg/icons/instargam.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
 }
 
-.section__title {
-  color: #fff;
-  font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 700;
+.social-ntwrk .icon-twitter {
+  background-image: url("../../images/svg/icons/twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.social-ntwrk .icon-facebook {
+  background-image: url("../../images/svg/icons/facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.social-ntwrk .icon-linkedin {
+  background-image: url("../../images/svg/icons/linkedin.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.about .icon-antenna {
+  background-image: url("../../images/svg/icons/antenna.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.about .icon-astronaut {
+  background-image: url("../../images/svg/icons/astronaut.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.about .icon-clock {
+  background-image: url("../../images/svg/icons/clock.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.about .icon-diagram {
+  background-image: url("../../images/svg/icons/diagram.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-1 {
+  background-image: url("../../images/svg/icons/logo-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-2 {
+  background-image: url("../../images/svg/icons/logo-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-3 {
+  background-image: url("../../images/svg/icons/logo-3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-4 {
+  background-image: url("../../images/svg/icons/logo-4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-5 {
+  background-image: url("../../images/svg/icons/logo-5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients .icon-logo-6 {
+  background-image: url("../../images/svg/icons/logo-6.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  background-color: grey;
+}
+
+body {
+  background-color: #fff;
+  font-size: 14px;
+  color: bisque;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: red;
+}
+
+.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notification-error, .notification-alert {
+  background-color: aliceblue;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.notification-error {
+  background-color: green;
+}
+
+.notification-alert {
+  background-color: red;
 }
 /*# sourceMappingURL=master.css.map */

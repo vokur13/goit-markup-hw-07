@@ -1,0 +1,16 @@
+@mixin centeredFlex($type: flex) {
+  display: $type;
+  justify-content: center;
+  align-items: center;
+}
+@mixin generateIcons($iconList) {
+  @each $iconName in $iconList {
+    .icon-#{$iconName} {
+      background-image: url('../../images/svg/icons/#{$iconName}.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      fill: currentColor;
+    }
+  }
+}
