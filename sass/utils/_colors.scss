@@ -15,22 +15,36 @@
 /* Modal bgc #FFFFFF */
 
 // --primary-text-color: #757575;
+$colorPrimaryText: #757575;
 // --title-text-color: #212121;
+$colorTitle: #212121;
 // --accent-color: #2196f3;
+$colorAccent: #2196f3;
 // --addres-links-color: #ffffff99;
+$colorAddrLinks: #ffffff99;
 // --basic-backgroud-color: #ffffff;
+$colorBgPrime: #ffffff;
 // --background-color: #f5f4fa;
+$colorBgMinor: #f5f4fa;
 // --minor-bgc: #eeeeee;
+$colorBorderPrj: #eeeeee;
+// --header-border-color: #ececec;
+$colorBorderHeader: #ececec;
 // --hero-bgc: #2f303a;
+$colorBgHero: #2f303a;
 // --footer-bgc: #2f303a;
+$colorBgFooter: #2f303a;
+// --dropbox-bgc: rgba(0, 0, 0, 0.1);
+$colorBgDropbox: rgba(0, 0, 0, 0.1);
+// --icon-color: #afb1b8;
+$colorIcon: #afb1b8;
+// --team-list-item-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//   0px 2px 1px rgba(0, 0, 0, 0.2);
+$shadowTeamItem: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+// --card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//   1px 4px 6px rgba(0, 0, 0, 0.16);
+// --modal-bgc: #ffffff;
 // --white-color: #fff;
 // --black-color: #212121;
 // --header-bgc: #fff;
-// --header-border-color: #ececec;
-// --card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-//   1px 4px 6px rgba(0, 0, 0, 0.16);
-// --team-list-item-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//   0px 2px 1px rgba(0, 0, 0, 0.2);
-// --icon-color: #afb1b8;
-// --dropbox-bgc: rgba(0, 0, 0, 0.1);
-// --modal-bgc: #ffffff;

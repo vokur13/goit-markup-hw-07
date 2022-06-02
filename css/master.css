@@ -14,9 +14,8 @@
 /* Цвет иконок #AFB1B8 */
 /* Dropbox bgc rgba(0, 0, 0, 0.1) */
 /* Modal bgc #FFFFFF */
-
 .social-ntwrk .icon-instargam {
-  background-image: url('../../images/svg/icons/instargam.svg');
+  background-image: url("../../images/svg/icons/instargam.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,7 +23,7 @@
 }
 
 .social-ntwrk .icon-twitter {
-  background-image: url('../../images/svg/icons/twitter.svg');
+  background-image: url("../../images/svg/icons/twitter.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -32,7 +31,7 @@
 }
 
 .social-ntwrk .icon-facebook {
-  background-image: url('../../images/svg/icons/facebook.svg');
+  background-image: url("../../images/svg/icons/facebook.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -40,7 +39,7 @@
 }
 
 .social-ntwrk .icon-linkedin {
-  background-image: url('../../images/svg/icons/linkedin.svg');
+  background-image: url("../../images/svg/icons/linkedin.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -48,7 +47,7 @@
 }
 
 .about .icon-antenna {
-  background-image: url('../../images/svg/icons/antenna.svg');
+  background-image: url("../../images/svg/icons/antenna.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -56,7 +55,7 @@
 }
 
 .about .icon-astronaut {
-  background-image: url('../../images/svg/icons/astronaut.svg');
+  background-image: url("../../images/svg/icons/astronaut.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -64,7 +63,7 @@
 }
 
 .about .icon-clock {
-  background-image: url('../../images/svg/icons/clock.svg');
+  background-image: url("../../images/svg/icons/clock.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -72,7 +71,7 @@
 }
 
 .about .icon-diagram {
-  background-image: url('../../images/svg/icons/diagram.svg');
+  background-image: url("../../images/svg/icons/diagram.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -80,7 +79,7 @@
 }
 
 .clients .icon-logo-1 {
-  background-image: url('../../images/svg/icons/logo-1.svg');
+  background-image: url("../../images/svg/icons/logo-1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -88,7 +87,7 @@
 }
 
 .clients .icon-logo-2 {
-  background-image: url('../../images/svg/icons/logo-2.svg');
+  background-image: url("../../images/svg/icons/logo-2.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -96,7 +95,7 @@
 }
 
 .clients .icon-logo-3 {
-  background-image: url('../../images/svg/icons/logo-3.svg');
+  background-image: url("../../images/svg/icons/logo-3.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -104,7 +103,7 @@
 }
 
 .clients .icon-logo-4 {
-  background-image: url('../../images/svg/icons/logo-4.svg');
+  background-image: url("../../images/svg/icons/logo-4.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -112,7 +111,7 @@
 }
 
 .clients .icon-logo-5 {
-  background-image: url('../../images/svg/icons/logo-5.svg');
+  background-image: url("../../images/svg/icons/logo-5.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -120,7 +119,7 @@
 }
 
 .clients .icon-logo-6 {
-  background-image: url('../../images/svg/icons/logo-6.svg');
+  background-image: url("../../images/svg/icons/logo-6.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -136,12 +135,8 @@
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.header {
-  background-color: grey;
 }
 /*# sourceMappingURL=master.css.map */
