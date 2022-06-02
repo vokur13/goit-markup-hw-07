@@ -1,37 +1,44 @@
 @import './utils/variables';
+@import './utils/colors';
 @import './utils/helpers';
 @import './utils/functions';
+@import './layout/header';
+@import './components/logo';
+@import './layout/navigation';
+@import './pages/home';
+@import './pages/portfolio';
+@import './pages/contact';
+@import './layout/forms';
+@import './layout/footer';
+@import './components/buttons';
 @import './utils/mixins';
 @import './utils/icons';
+@import './components/dropdown';
 @import './utils/visually_hidden';
 @import './components/header';
 
-body {
-  background-color: $colorBgPrime;
-  font-size: $fontSz;
-  color: bisque;
-}
+// body {
+//   background-color: $colorBgPrime;
+//   font-size: $fontSz;
+//   color: bisque;
+// }
 
-p {
-  @include centeredFlex();
-  color: red;
-}
+// p {
+//   @include centeredFlex();
+//   color: red;
+// }
 
-.button {
-  @include centeredFlex(inline-flex);
-}
+// %notification {
+//   background-color: aliceblue;
+//   font-size: 16px;
+//   padding: 20px;
+// }
 
-%notification {
-  background-color: aliceblue;
-  font-size: 16px;
-  padding: 20px;
-}
-
-.notification-error {
-  @extend %notification;
-  background-color: green;
-}
-.notification-alert {
-  @extend %notification;
-  background-color: red;
-}
+// .notification-error {
+//   @extend %notification;
+//   background-color: green;
+// }
+// .notification-alert {
+//   @extend %notification;
+//   background-color: red;
+// }

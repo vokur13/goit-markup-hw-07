@@ -147,49 +147,4 @@ p {
 .header {
   background-color: grey;
 }
-
-body {
-  background-color: #fff;
-  font-size: 14px;
-  color: bisque;
-}
-
-p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: red;
-}
-
-.button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.notification-error, .notification-alert {
-  background-color: aliceblue;
-  font-size: 16px;
-  padding: 20px;
-}
-
-.notification-error {
-  background-color: green;
-}
-
-.notification-alert {
-  background-color: red;
-}
 /*# sourceMappingURL=master.css.map */
