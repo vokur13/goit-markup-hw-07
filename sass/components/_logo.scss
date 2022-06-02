@@ -1,0 +1,27 @@
+%logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.site-nav__logo {
+  @extend %logo;
+  color: getColor('title');
+  &--link {
+    text-decoration: none;
+  }
+}
+
+.footer__logo {
+  @extend %logo;
+  color: getColor('bg-prime');
+  &--link {
+    text-decoration: none;
+  }
+}
+
+.logo__accent {
+  color: getColor('accent');
+}

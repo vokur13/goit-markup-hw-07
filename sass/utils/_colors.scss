@@ -14,34 +14,59 @@
 /* Dropbox bgc rgba(0, 0, 0, 0.1) */
 /* Modal bgc #FFFFFF */
 
+$colors: (
+  'primary-text': #757575,
+  'title': #212121,
+  'accent': #2196f3,
+  'addr-links': #ffffff99,
+  'bg-prime': #ffffff,
+  'bg-minor': #f5f4fa,
+  'border-prj': #eeeeee,
+  'border-header': #ececec,
+  'bg-hero': #2f303a,
+  'bg-footer': #2f303a,
+  'bg-dropbox': rgba(0, 0, 0, 0.1),
+  'icon': #afb1b8,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+// $shadow: (
+//   'team-item': 0px 1px 3px rgba(0, 0, 0, 0.12),
+//   0px 1px 1px rgba(0, 0, 0, 0.14),
+//   0px 2px 1px rgba(0, 0, 0, 0.2),
+// );
+
 // --primary-text-color: #757575;
-$colorPrimaryText: #757575;
+// $colorPrimaryText: #757575;
 // --title-text-color: #212121;
-$colorTitle: #212121;
+// $colorTitle: #212121;
 // --accent-color: #2196f3;
-$colorAccent: #2196f3;
+// $colorAccent: #2196f3;
 // --addres-links-color: #ffffff99;
-$colorAddrLinks: #ffffff99;
+// $colorAddrLinks: #ffffff99;
 // --basic-backgroud-color: #ffffff;
-$colorBgPrime: #ffffff;
+// $colorBgPrime: #ffffff;
 // --background-color: #f5f4fa;
-$colorBgMinor: #f5f4fa;
+// $colorBgMinor: #f5f4fa;
 // --minor-bgc: #eeeeee;
-$colorBorderPrj: #eeeeee;
+// $colorBorderPrj: #eeeeee;
 // --header-border-color: #ececec;
-$colorBorderHeader: #ececec;
+// $colorBorderHeader: #ececec;
 // --hero-bgc: #2f303a;
-$colorBgHero: #2f303a;
+// $colorBgHero: #2f303a;
 // --footer-bgc: #2f303a;
-$colorBgFooter: #2f303a;
+// $colorBgFooter: #2f303a;
 // --dropbox-bgc: rgba(0, 0, 0, 0.1);
-$colorBgDropbox: rgba(0, 0, 0, 0.1);
+// $colorBgDropbox: rgba(0, 0, 0, 0.1);
 // --icon-color: #afb1b8;
-$colorIcon: #afb1b8;
+// $colorIcon: #afb1b8;
 // --team-list-item-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 //   0px 2px 1px rgba(0, 0, 0, 0.2);
-$shadowTeamItem: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+// $shadowTeamItem: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//   0px 2px 1px rgba(0, 0, 0, 0.2);
 // --card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 //   1px 4px 6px rgba(0, 0, 0, 0.16);
 // --modal-bgc: #ffffff;

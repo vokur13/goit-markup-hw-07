@@ -1,0 +1,39 @@
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: getColor('bg-prime');
+  border-bottom: 1px solid getColor('border-header');
+  z-index: 1;
+}
+.header__container {
+}
+.site-nav {
+  display: flex;
+}
+.site-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+  padding: 0;
+}
+.site-nav__item {
+}
+.site-nav__link {
+}
+.site-nav__link--active {
+}
+.studio-contacts {
+}
+.header__studio-contacts {
+}
+.studio-contacts__item {
+}
+.studio-contacts__link {
+}
+.studio-contacts__icon {
+}

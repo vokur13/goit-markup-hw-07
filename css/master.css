@@ -14,6 +14,94 @@
 /* Цвет иконок #AFB1B8 */
 /* Dropbox bgc rgba(0, 0, 0, 0.1) */
 /* Modal bgc #FFFFFF */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1ps solid tomato;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+  z-index: 1;
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 93px;
+  padding: 0;
+}
+
+.site-nav__logo, .footer__logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.site-nav__logo {
+  color: #212121;
+}
+
+.site-nav__logo--link {
+  text-decoration: none;
+}
+
+.footer__logo {
+  color: #ffffff;
+}
+
+.footer__logo--link {
+  text-decoration: none;
+}
+
+.logo__accent {
+  color: #2196f3;
+}
+
+.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .social-ntwrk .icon-instargam {
   background-image: url("../../images/svg/icons/instargam.svg");
   background-position: center;

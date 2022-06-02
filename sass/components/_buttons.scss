@@ -1,3 +1,5 @@
-// .button {
-//   @include centeredFlex(inline-flex);
-// }
+.button {
+  @include centeredFlex(inline-flex);
+  color: getColor('bg-prime');
+  background-color: getColor('accent');
+}
