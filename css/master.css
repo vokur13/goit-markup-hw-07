@@ -81,12 +81,13 @@ img {
 .site-nav__link {
   position: relative;
   display: block;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
 }
 
 .site-nav__logo, .footer__logo {
@@ -106,6 +107,8 @@ img {
 }
 
 .footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
