@@ -3,7 +3,6 @@
 }
 
 .site-nav__list {
-  list-style: none;
   display: flex;
   align-items: center;
   margin-left: 93px;
@@ -22,7 +21,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms $timing-func;
-  text-decoration: none;
   &:hover,
   &:focus {
     color: getColor('accent');
