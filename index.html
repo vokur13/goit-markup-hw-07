@@ -27,7 +27,7 @@
     <header class="header">
       <div class="container header__container">
         <nav class="site-nav">
-          <a class="logo site-nav__logo site-nav__logo--link" href="./index.html"
+          <a class="logo site-nav__logo" href="./index.html"
             ><span class="logo__accent">Web</span>Studio</a
           >
           <ul class="site-nav__list">
@@ -44,18 +44,18 @@
           </ul>
         </nav>
 
-        <ul class="studio-contacts header__studio-contacts">
-          <li class="studio-contacts__item">
-            <a href="mailto:info@devstudio.com" class="studio-contacts__link">
-              <svg class="studio-contacts__icon" width="16px" height="12px">
+        <ul class="header-studio-contacts">
+          <li class="header-studio-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-studio-contacts__link">
+              <svg class="header-studio-contacts__icon" width="16px" height="12px">
                 <use href="./images/svg/webstudio-icons-optimized.svg#icon-envelope"></use></svg
               >info@devstudio.com
             </a>
           </li>
 
-          <li class="studio-contacts__item">
-            <a href="tel:+380961111111" class="studio-contacts__link">
-              <svg class="studio-contacts__icon" width="10px" height="16px">
+          <li class="header-studio-contacts__item">
+            <a href="tel:+380961111111" class="header-studio-contacts__link">
+              <svg class="header-studio-contacts__icon" width="10px" height="16px">
                 <use href="./images/svg/webstudio-icons-optimized.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11
             </a>
@@ -107,7 +107,7 @@
     <main>
       <!-- Principal Section - Hero -->
 
-      <section class="section hero">
+      <section class="section hero__overlay">
         <div class="container hero__container">
           <h1 class="title hero__title">
             Эффективные решения <br />
@@ -131,7 +131,7 @@
 
       <section class="section about">
         <div class="container about__container">
-          <h2 class="title section__title section__title--visually-hidden">Наши преимущества</h2>
+          <h2 class="title section__title about__title">Наши преимущества</h2>
           <ul class="about__list">
             <li class="about__item">
               <div class="about__body">
@@ -139,7 +139,7 @@
                   <use href="./images/svg/webstudio-icons-optimized.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="title about__title">Внимание к деталям</h3>
+              <h3 class="sub-title about__sub-title">Внимание к деталям</h3>
               <p class="about__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
@@ -150,7 +150,7 @@
                   <use href="./images/svg/webstudio-icons-optimized.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="title about__title">Пунктуальность</h3>
+              <h3 class="sub-title about__sub-title">Пунктуальность</h3>
               <p class="about__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
@@ -161,7 +161,7 @@
                   <use href="./images/svg/webstudio-icons-optimized.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="title about__title">Планирование</h3>
+              <h3 class="sub-title about__sub-title">Планирование</h3>
               <p class="about__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
@@ -172,7 +172,7 @@
                   <use href="./images/svg/webstudio-icons-optimized.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="title about__title">Современные технологии</h3>
+              <h3 class="sub-title about__sub-title">Современные технологии</h3>
               <p class="about__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
@@ -821,29 +821,36 @@
     </main>
 
     <!-- Footer -->
-
     <footer class="footer">
       <div class="container footer__container">
         <div class="contacts">
-          <a class="logo footer__logo footer__logo--link" href="./index.html"
+          <a class="logo footer__logo" href="./index.html"
             ><span class="logo__accent">Web</span>Studio</a
           >
-          <address class="studio-contacts footer__studio-contacts">
-            <ul class="studio-contacts__list">
-              <li class="studio-contacts__item">
+          <address class="studio-contacts footer-studio-contacts">
+            <ul class="studio-contacts__list footer-studio-contacts__list">
+              <li class="studio-contacts__item footer-studio-contacts__item">
                 <a
-                  class="studio-contacts__link"
+                  class="studio-contacts__link footer-studio-contacts__link"
                   href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="studio-contacts__item">
-                <a class="studio-contacts__link" href="mailto:info@example.com">info@example.com</a>
+              <li class="studio-contacts__item footer-studio-contacts__item">
+                <a
+                  class="studio-contacts__link footer-studio-contacts__link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
               </li>
-              <li class="studio-contacts__item">
-                <a class="studio-contacts__link" href="tel:+380991111111">+38 099 111 11 11</a>
+              <li class="studio-contacts__item footer-studio-contacts__item">
+                <a
+                  class="studio-contacts__link footer-studio-contacts__link"
+                  href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>

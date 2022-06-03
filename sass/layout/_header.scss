@@ -5,49 +5,45 @@
   width: 100%;
   top: 0;
   left: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
   background-color: getColor('bg-prime');
   border-bottom: 1px solid getColor('border-header');
   z-index: 1;
-}
-.header__container {
-  display: flex;
-  align-items: center;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
 }
 .studio-contacts {
 }
-.header__studio-contacts {
+
+.header-studio-contacts {
   display: flex;
   flex-wrap: nowrap;
   width: fit-content;
   margin-left: auto;
-}
-// .studio-contacts__item:not(:last-child) {
-//   margin-right: 30px;
-// }
-// .studio-contacts__item {
-//   &--list {
-//     list-style: none;
-//   }
-// }
-// .studio-contacts__link {
-//   display: flex;
-//   padding: 0;
-//   align-items: center;
-// }
-.studio-contacts {
   &__item:not(:last-child) {
     margin-right: 30px;
-  }
-  &__item {
-    &--list {
-      list-style: none;
-    }
   }
   &__link {
     display: flex;
     padding: 0;
     align-items: center;
+    color: getColor('primary-text');
+    fill: currentColor;
+    transition: color 250ms $timing-func;
+    &:hover,
+    &:focus {
+      color: getColor('accent');
+    }
   }
-}
-.studio-contacts__icon {
+  &__icon {
+    margin-right: 10px;
+  }
 }

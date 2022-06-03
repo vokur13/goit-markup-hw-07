@@ -271,13 +271,6 @@ summary {
   display: list-item;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0;
-}
-
 h1,
 h2,
 h3,
@@ -289,6 +282,7 @@ ul,
 ol,
 li {
   margin: 0;
+  padding: 0;
 }
 ul,
 ol {
@@ -296,4 +290,11 @@ ol {
 }
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }

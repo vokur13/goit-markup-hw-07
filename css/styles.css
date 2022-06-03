@@ -252,7 +252,7 @@ address {
   padding: 0;
   align-items: center;
 } */
-.contacts.pseudo {
+/* .contacts.pseudo {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -260,14 +260,14 @@ address {
   letter-spacing: 0.02em;
   fill: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.item.contacts .link-icon {
+} */
+/* .item.contacts .link-icon {
   margin-right: 10px;
-}
-.contacts.pseudo:hover,
+} */
+/* .contacts.pseudo:hover,
 .contacts.pseudo:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ------------ Principal section - Hero BEM ------------ */
 
@@ -288,17 +288,17 @@ address {
 .hero__button {
 }
 
-/* ------------ Principal section - Hero ------------ */
+/* ------------ Section - Hero ------------ */
 
-.principal-section-title {
+/* .principal-section-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-}
-.order-button {
+} */
+/* .order-button {
   background: var(--accent-color);
   font-family: inherit;
   font-style: normal;
@@ -317,11 +317,11 @@ address {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
-}
-.principal-section {
+} */
+/* .principal-section {
   padding: 200px 0px;
-}
-.overlay {
+} */
+/* .overlay {
   background-color: var(--hero-bgc);
   max-width: 1600px;
   min-height: 600px;
@@ -333,10 +333,10 @@ address {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-.principal-section .container {
+} */
+/* .principal-section .container {
   text-align: center;
-}
+} */
 
 /* ------------ About BEM ------------ */
 
@@ -369,17 +369,17 @@ address {
 
 /* ------------ About ------------ */
 
-.section.features {
+/* .section.features {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section-title {
+} */
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-text-color);
-}
-.section-title.visually-hidden,
+} */
+/* .section-title.visually-hidden, */
 .portfolio-title.visually-hidden {
   position: absolute;
   width: 1px;
@@ -392,36 +392,36 @@ address {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.features .title {
+/* .features .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
-}
-.features-p-style {
+} */
+/* .features-p-style {
   line-height: 1.71;
   padding: 0;
   margin: 0;
-}
-.features.list {
+} */
+/* .features.list {
   display: flex;
   flex-wrap: wrap;
-}
-.features.list > .item {
+} */
+/* .features.list > .item {
   flex-basis: calc((100% - 90px) / 4);
   height: 251px;
-}
-.features.list > .item:not(:last-child) {
+} */
+/* .features.list > .item:not(:last-child) {
   margin-right: var(--item-gap);
-}
-.container-features {
+} */
+/* .container-features {
   display: inline-block;
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: var(--background-color);
   border-radius: 4px;
-}
+} */
 .features .icon-feat {
   width: 70px;
   height: 70px;
