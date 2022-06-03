@@ -10,14 +10,44 @@
   z-index: 1;
 }
 .header__container {
+  display: flex;
+  align-items: center;
 }
 .studio-contacts {
 }
 .header__studio-contacts {
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+  margin-left: auto;
 }
-.studio-contacts__item {
-}
-.studio-contacts__link {
+// .studio-contacts__item:not(:last-child) {
+//   margin-right: 30px;
+// }
+// .studio-contacts__item {
+//   &--list {
+//     list-style: none;
+//   }
+// }
+// .studio-contacts__link {
+//   display: flex;
+//   padding: 0;
+//   align-items: center;
+// }
+.studio-contacts {
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__item {
+    &--list {
+      list-style: none;
+    }
+  }
+  &__link {
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
 }
 .studio-contacts__icon {
 }
