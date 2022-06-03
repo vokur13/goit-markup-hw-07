@@ -1,0 +1,24 @@
+.site-nav {
+  display: flex;
+}
+.site-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+  padding: 0;
+}
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav__link {
+  position: relative;
+  display: block;
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-nav__link--active {
+}

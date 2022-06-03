@@ -5,17 +5,16 @@
 @import './utils/mixins';
 @import './utils/functions';
 @import './layout/header';
+@import './layout/navigation';
 @import './components/logo';
 @import './components/buttons';
-@import './layout/navigation';
+@import './components/icons';
 @import './pages/home';
 @import './pages/portfolio';
 @import './pages/contact';
 @import './layout/forms';
 @import './layout/footer';
-@import './utils/icons';
 @import './components/dropdown';
-@import './utils/visually_hidden';
 
 // body {
 //   background-color: $colorBgPrime;
