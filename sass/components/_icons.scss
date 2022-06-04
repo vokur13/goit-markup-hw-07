@@ -1,14 +1,14 @@
-$iconSocialNtwrk: 'instargam', 'twitter', 'facebook', 'linkedin';
-$iconAbout: 'antenna', 'astronaut', 'clock', 'diagram';
-$iconClient: 'logo-1', 'logo-2', 'logo-3', 'logo-4', 'logo-5', 'logo-6';
+$iconSocialNtwrk: '--instargam', '--twitter', '--facebook', '--linkedin';
+$iconAbout: '--antenna', '--astronaut', '--clock', '--diagram';
+$iconClient: '--logo-1', '--logo-2', '--logo-3', '--logo-4', '--logo-5', '--logo-6';
 
 .social-ntwrk {
   @include generateIcons($iconSocialNtwrk);
 }
 
-.about {
-  @include generateIcons($iconAbout);
-}
+// .about {
+//   @include generateIcons($iconAbout);
+// }
 
 .clients {
   @include generateIcons($iconClient);

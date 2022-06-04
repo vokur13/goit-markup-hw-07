@@ -508,6 +508,106 @@ img {
   color: #2196f3;
 }
 
+.social-ntwrk--instargam {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--instargam.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.social-ntwrk--twitter {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.social-ntwrk--facebook {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.social-ntwrk--linkedin {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--linkedin.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-1 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-2 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-3 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-4 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-4.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-5 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-5.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
+.clients--logo-6 {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../images/svg/icons/--logo-6.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+}
+
 /* ------------ Section - Hero ------------ */
 .hero__overlay {
   padding: 200px 0px;
@@ -578,6 +678,7 @@ img {
 }
 
 .about__sub-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -587,9 +688,15 @@ img {
 }
 
 .about__text {
-  line-height: calc(24 / 14);
   padding: 0;
   margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .about__list {
@@ -603,7 +710,6 @@ img {
 .about__item {
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
-  height: 251px;
 }
 
 .about__item:not(:last-child) {
@@ -614,7 +720,7 @@ img {
   display: inline-block;
   padding: 25px 100px;
   margin-bottom: 30px;
-  background-color: var(--background-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -630,118 +736,6 @@ img {
           align-items: center;
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.social-ntwrk .icon-instargam {
-  background-image: url("../../images/svg/icons/instargam.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.social-ntwrk .icon-twitter {
-  background-image: url("../../images/svg/icons/twitter.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.social-ntwrk .icon-facebook {
-  background-image: url("../../images/svg/icons/facebook.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.social-ntwrk .icon-linkedin {
-  background-image: url("../../images/svg/icons/linkedin.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.about .icon-antenna {
-  background-image: url("../../images/svg/icons/antenna.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.about .icon-astronaut {
-  background-image: url("../../images/svg/icons/astronaut.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.about .icon-clock {
-  background-image: url("../../images/svg/icons/clock.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.about .icon-diagram {
-  background-image: url("../../images/svg/icons/diagram.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-1 {
-  background-image: url("../../images/svg/icons/logo-1.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-2 {
-  background-image: url("../../images/svg/icons/logo-2.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-3 {
-  background-image: url("../../images/svg/icons/logo-3.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-4 {
-  background-image: url("../../images/svg/icons/logo-4.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-5 {
-  background-image: url("../../images/svg/icons/logo-5.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-}
-
-.clients .icon-logo-6 {
-  background-image: url("../../images/svg/icons/logo-6.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
 }
 
 .footer__logo {

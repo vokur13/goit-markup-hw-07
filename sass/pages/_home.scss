@@ -71,6 +71,7 @@
     @extend %visually-hidden;
   }
   &__sub-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -79,9 +80,16 @@
     color: getColor('title');
   }
   &__text {
-    line-height: calc(24 / 14);
     padding: 0;
     margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: getColor('primary-text');
   }
   &__list {
     display: flex;
@@ -89,7 +97,6 @@
   }
   &__item {
     flex-basis: calc((100% - 90px) / 4);
-    height: 251px;
     &:not(:last-child) {
       margin-right: $item-gap;
     }
@@ -101,26 +108,37 @@
     background-color: getColor('bg-minor');
     border-radius: 4px;
   }
+  //   &__icon {
+  //     width: 70px;
+  //     height: 70px;
+
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //     background-size: contain;
+  //     fill: currentColor;
+  //     @include generateIcons($iconAbout);
+  //   }
+
+  //   %__icon {
+  //     width: 70px;
+  //     height: 70px;
+
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //     background-size: contain;
+  //     fill: currentColor;
+  //     @extend %__icon;
+  //     @include generateIcons($iconAbout);
+  //   }
 }
-.container {
-}
-.about__container {
-}
-.title {
-}
-.section__title {
-}
-.section__title--visually-hidden {
-}
-.about__list {
-}
-.about__item {
-}
-.about__body {
-}
-.about__icon {
-}
-.about__title {
-}
-.about__text {
+%__icon {
+  width: 70px;
+  height: 70px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  fill: currentColor;
+  @extend %__icon;
+  @include generateIcons($iconAbout);
 }
