@@ -5,9 +5,7 @@
 }
 @mixin generateIcons($iconList) {
   @each $iconName in $iconList {
-    &#{$iconName} {
-      width: 70px;
-      height: 70px;
+    &--#{$iconName} {
       background-image: url('../../images/svg/icons/#{$iconName}.svg');
       background-position: center;
       background-repeat: no-repeat;

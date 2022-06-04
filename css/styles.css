@@ -452,32 +452,32 @@ address {
 
 /* ------------ Profile ------------ */
 
-.profile {
+/* .profile {
   padding-bottom: 94px;
-}
-.profile .section-title {
+} */
+/* .profile .section-title {
   margin-bottom: 50px;
   text-align: center;
-}
-.tools .list {
+} */
+/* .tools .list {
   display: flex;
   flex-wrap: wrap;
-}
-.tools .list .item {
+} */
+/* .tools .list .item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 0;
-}
-.tools .list .item:nth-child(3n) {
+} */
+/* .tools .list .item:nth-child(3n) {
   margin-right: 0;
-}
-.features.list .title {
+} */
+/* .features.list .title {
   margin-bottom: 10px;
-}
-.prfl-thumb {
+} */
+/* .prfl-thumb {
   position: relative;
-}
-.prfl-dscrpt {
+} */
+/* .prfl-dscrpt {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -492,7 +492,7 @@ address {
   text-transform: uppercase;
   color: var(--white-color);
   background-color: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* ------------ Our Team BEM ------------ */
 
@@ -531,61 +531,61 @@ address {
 
 /* ------------ Our Team ------------ */
 
-.section.team {
+/* .section.team {
   background-color: var(--background-color);
-}
-.team .title {
+} */
+/* .team .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-text-color);
-}
-.team.list > .item {
+} */
+/* .team.list > .item {
   background: var(--basic-backgroud-color);
-}
-.team-unit {
+} */
+/* .team-unit {
   font-size: 16px;
   line-height: 1.18;
   padding: 0;
   margin: 0px 0px 16px 0px;
-}
-.section.team {
+} */
+/* .section.team {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section.team .section-title {
+} */
+/* .section.team .section-title {
   text-align: center;
-}
-.section.team .section-title {
+} */
+/* .section.team .section-title {
   margin-bottom: 50px;
-}
-.team .card-label {
+} */
+/* .team .card-label {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.team.list {
+} */
+/* .team.list {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-}
-.team.list > .item {
+} */
+/* .team.list > .item {
   box-shadow: var(--team-list-item-shadow);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-}
-.team.list > .item:not(:last-child) {
+} */
+/* .team.list > .item:not(:last-child) {
   margin-right: var(--item-gap);
-}
-.team .title {
+} */
+/* .team .title {
   margin-bottom: 10px;
-}
-.team .card-label {
+} */
+/* .team .card-label {
   display: grid;
   justify-content: center;
-}
-.team-unit {
+} */
+/* .team-unit {
   margin-bottom: 16px;
-}
+} */
 .list.social-netwrk {
   display: flex;
   padding: 0;

@@ -1,4 +1,4 @@
-/* ------------ Section - Hero ------------ */
+/* ------------ Section Hero ------------ */
 
 .hero {
   &__overlay {
@@ -54,16 +54,6 @@
 
 /* ------------ Section About ------------ */
 
-.section {
-  &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: calc(42 / 36);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: getColor('title');
-  }
-}
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -83,7 +73,6 @@
     padding: 0;
     margin: 0;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -108,37 +97,130 @@
     background-color: getColor('bg-minor');
     border-radius: 4px;
   }
-  //   &__icon {
-  //     width: 70px;
-  //     height: 70px;
-
-  //     background-position: center;
-  //     background-repeat: no-repeat;
-  //     background-size: contain;
-  //     fill: currentColor;
-  //     @include generateIcons($iconAbout);
-  //   }
-
-  //   %__icon {
-  //     width: 70px;
-  //     height: 70px;
-
-  //     background-position: center;
-  //     background-repeat: no-repeat;
-  //     background-size: contain;
-  //     fill: currentColor;
-  //     @extend %__icon;
-  //     @include generateIcons($iconAbout);
-  //   }
+  &__icon {
+    width: 70px;
+    height: 70px;
+    @include generateIcons($iconAbout);
+  }
 }
-%__icon {
-  width: 70px;
-  height: 70px;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  fill: currentColor;
-  @extend %__icon;
-  @include generateIcons($iconAbout);
+/* ------------Section Profile ------------ */
+
+.profile {
+  padding-bottom: 94px;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: calc((100% - 60px) / 3);
+    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  &__thumb {
+    position: relative;
+  }
+  &__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: getColor('bg-prime');
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
+
+/* ------------ Section Our Team ------------ */
+
+.section {
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: getColor('bg-minor');
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  &__item {
+    background: getColor('bg-prime');
+    box-shadow: var(--team-list-item-shadow);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    &:not(:last-child) {
+      margin-right: $item-gap;
+    }
+  }
+  &__card {
+    display: grid;
+    justify-content: center;
+  }
+  &__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__sub-title {
+    margin-bottom: 10px;
+  }
+  &__position {
+    font-size: 16px;
+    line-height: 1.18;
+    padding: 0;
+    margin: 0px 0px 16px 0px;
+    margin-bottom: 16px;
+  }
+}
+
+// &__icon {
+//     width: 70px;
+//     height: 70px;
+//     @include generateIcons($iconAbout);
+//   }
+
+// @include generateIcons($iconSocialNtwrk);
+
+.container {
+}
+.team__container {
+}
+.title {
+}
+.section__title {
+}
+.team__list {
+}
+.team__item {
+}
+.team__card {
+}
+.team__title {
+}
+.team__occupation {
+}
+.social-netwrk-list {
+}
+.team__social-netwrk-list {
+}
+.social-netwrk-list__item {
+}
+.social-netwrk-list__link {
+}
+.social-netwrk-list__icon {
 }
