@@ -4,18 +4,18 @@
 @import './utils/helpers';
 @import './utils/mixins';
 @import './utils/functions';
-@import './layout/header';
-@import './layout/navigation';
 @import './components/logo';
 @import './components/icons';
 @import './components/title';
-@import './pages/home';
-@import './layout/footer';
 @import './components/buttons';
+@import './components/dropdown';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/forms';
+@import './layout/footer';
+@import './pages/home';
 @import './pages/portfolio';
 @import './pages/contact';
-@import './layout/forms';
-@import './components/dropdown';
 
 // body {
 //   background-color: $colorBgPrime;
