@@ -30,7 +30,3 @@ $iconClient: 'logo-1', 'logo-2', 'logo-3', 'logo-4', 'logo-5', 'logo-6';
     height: 20px;
   }
 }
-
-.clients {
-  @include generateIcons($iconClient);
-}

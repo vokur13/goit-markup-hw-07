@@ -16,29 +16,3 @@
 @import './pages/home';
 @import './pages/portfolio';
 @import './pages/contact';
-
-// body {
-//   background-color: $colorBgPrime;
-//   font-size: $fontSz;
-//   color: bisque;
-// }
-
-// p {
-//   @include centeredFlex();
-//   color: red;
-// }
-
-// %notification {
-//   background-color: aliceblue;
-//   font-size: 16px;
-//   padding: 20px;
-// }
-
-// .notification-error {
-//   @extend %notification;
-//   background-color: green;
-// }
-// .notification-alert {
-//   @extend %notification;
-//   background-color: red;
-// }

@@ -313,7 +313,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid tomato;
 }
 
 .about__title, .portfolio__title {
@@ -378,48 +377,6 @@ img {
 .social-netwrk__icon {
   width: 20px;
   height: 20px;
-}
-
-.clients--logo-1 {
-  background-image: url("../../images/svg/icons/logo-1.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients--logo-2 {
-  background-image: url("../../images/svg/icons/logo-2.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients--logo-3 {
-  background-image: url("../../images/svg/icons/logo-3.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients--logo-4 {
-  background-image: url("../../images/svg/icons/logo-4.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients--logo-5 {
-  background-image: url("../../images/svg/icons/logo-5.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients--logo-6 {
-  background-image: url("../../images/svg/icons/logo-6.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .section__title {
