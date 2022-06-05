@@ -12,9 +12,13 @@
   &__logo {
     color: getColor('bg-prime');
   }
+  &__contacts {
+    margin-right: 70px;
+  }
 }
 
 .footer-studio-contacts {
+  margin-top: 20px;
   &__list {
     display: block;
   }
@@ -45,7 +49,7 @@
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);
+    color: getColor('addr-links');
 
     &:hover,
     &:focus {
@@ -53,6 +57,67 @@
     }
   }
 }
+
+.follow {
+  &__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: getColor('bg-prime');
+  }
+}
+
+.footer-social-netwrk {
+  &__list {
+    margin-top: 20px;
+  }
+  &__link {
+    background-color: getColor('bg-footer-social-network-icon');
+    color: getColor('bg-prime');
+    fill: currentColor;
+    &:hover,
+    &:focus {
+      background-color: getColor('accent');
+    }
+  }
+}
+
+.sbscrb {
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+  &__text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: getColor('bg-prime');
+  }
+}
+
+.sbscrb__text {
+}
+.form-sbscrb {
+}
+.form-sbscrb__label {
+}
+.form-sbscrb__input {
+}
+.button {
+}
+.form-sbscrb__button {
+}
+.button__text {
+}
+.button__icon {
+}
+
 .container {
 }
 .footer__container {
@@ -88,22 +153,4 @@
 .social-netwrk-list__link {
 }
 .social-netwrk-list__icon {
-}
-.sbscrb {
-}
-.sbscrb__text {
-}
-.form-sbscrb {
-}
-.form-sbscrb__label {
-}
-.form-sbscrb__input {
-}
-.button {
-}
-.form-sbscrb__button {
-}
-.button__text {
-}
-.button__icon {
 }

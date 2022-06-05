@@ -783,31 +783,31 @@ address {
 .footer .studio-contacts:focus {
   color: var(--accent-color);
 } */
-.studio-address {
+/* .studio-address {
   font-weight: 400;
   line-height: 1.71;
   color: var(--white-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.common.container .address {
+} */
+/* .common.container .address {
   margin-right: 70px;
-}
-.follow-us {
+} */
+/* .follow-us {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--basic-backgroud-color);
-}
-.follow .list.social-netwrk {
+} */
+/* .follow .list.social-netwrk {
   display: flex;
   padding: 0;
   width: fit-content;
   height: 44px;
   margin-top: 20px;
-}
-.follow .link.social-netwrk {
+} */
+/* .follow .link.social-netwrk {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -818,18 +818,18 @@ address {
   background-color: #ffffff1a;
   fill: var(--white-color);
   transition: background-color 250ms var(--timing-func);
-}
-.link.social-netwrk:hover,
+} */
+/* .link.social-netwrk:hover,
 .link.social-netwrk:focus {
   background-color: var(--accent-color);
-}
-.sbscrb-container {
+} */
+/* .sbscrb-container {
   display: block;
-  /* min-width: 570px; */
+  min-width: 570px;
   margin-right: 0;
   margin-left: auto;
-}
-.sbscrb-container p {
+} */
+/* .sbscrb-container p {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -837,13 +837,13 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
-}
-.form-ftr {
+} */
+/* .form-ftr {
   display: flex;
   width: 100%;
-}
+} */
 
-.form-label.sbscrb {
+/* .form-label.sbscrb {
   display: block;
   width: 358px;
   height: 50px;
@@ -859,8 +859,8 @@ address {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-.sbscrb-input {
+} */
+/* .sbscrb-input {
   display: block;
   outline: 0;
   outline-offset: 0;
@@ -868,22 +868,22 @@ address {
   padding-left: 16px;
   background-color: inherit;
   color: var(--white-color);
-}
-.order-button.sbscrb {
+} */
+/* .order-button.sbscrb {
   margin-left: 12px;
   padding: 10px 28px;
   display: flex;
   align-items: center;
-}
-.sbscrb-icon {
+} */
+/* .sbscrb-icon {
   display: inline-block;
   margin-right: 10px;
   padding: 0;
-}
-.sbscrb-svg {
+} */
+/* .sbscrb-svg {
   width: 24px;
   height: 24px;
-}
+} */
 
 /* ------------ Portfolio BEM ------------ */
 
