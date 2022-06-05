@@ -1001,20 +1001,20 @@ address {
 /* .projects.list .item .title {
   margin-bottom: 4px;
 } */
-.project-card {
+/* .project-card {
   display: block;
   transition: box-shadow 250ms var(--timing-func);
-}
-.project-card:hover,
+} */
+/* .project-card:hover,
 .project-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.prj-thumb {
+} */
+/* .prj-thumb {
   position: relative;
   overflow: hidden;
-}
-.prj-dscrpt {
+} */
+/* .prj-dscrpt {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1025,28 +1025,28 @@ address {
 
   transform: translateY(100%);
   transition: transform 250ms var(--timing-func);
-}
-.project-card:hover .prj-dscrpt,
+} */
+/* .project-card:hover .prj-dscrpt,
 .project-card:focus .prj-dscrpt {
   transform: translateY(0);
-}
-.prj-dscrpt > p {
+} */
+/* .prj-dscrpt > p {
   font-size: 18px;
   font-weight: 400;
   line-height: calc(28 / 18);
   color: var(--white-color);
   opacity: 0;
   transition: opacity 250ms var(--timing-func) 250ms;
-}
-.project-card:hover .prj-dscrpt > p,
+} */
+/* .project-card:hover .prj-dscrpt > p,
 .project-card:focus .prj-dscrpt > p {
   opacity: 1;
-}
-.card-label {
+} */
+/* .card-label {
   padding: 20px 24px;
   border: 1px solid var(--minor-bgc);
   border-top: none;
-}
+} */
 
 /* ------------ Backdrop Modal BEM ------------ */
 
@@ -1063,7 +1063,7 @@ address {
 
 /* ------------ Backdrop Modal ------------ */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1075,12 +1075,12 @@ address {
   background-color: var(--dropbox-bgc);
   opacity: 1;
   transition: opacity 250ms var(--timing-func);
-}
-.backdrop.is-hidden {
+} */
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
-.modal {
+} */
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1097,12 +1097,12 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   background-color: var(--modal-bgc);
-}
-.backdrop.is-hidden .modal {
+} */
+/* .backdrop.is-hidden .modal {
   opacity: 0;
   transform: translate(-50%, -50%) scale(1.2);
-}
-.mdl-close {
+} */
+/* .mdl-close {
   position: absolute;
   top: 0;
   right: 0;
@@ -1121,12 +1121,12 @@ address {
   color: var(--black-color);
   fill: currentColor;
   transition: fill 250ms var(--timing-func);
-}
-.mdl-close:hover,
+} */
+/* .mdl-close:hover,
 .mdl-close:focus {
   fill: var(--accent-color);
   cursor: pointer;
-}
+} */
 
 /* ------------ Backdrop Modal Form BEM ------------ */
 
