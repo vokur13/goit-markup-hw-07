@@ -1165,11 +1165,11 @@ address {
 
 /* ------------ Backdrop Modal Form ------------ */
 
-.form-mdl {
+/* .form-mdl {
   height: 100%;
   padding: 0;
   text-align: center;
-}
+} */
 .form-mdl b {
   display: block;
   margin-bottom: 12px;
@@ -1181,29 +1181,29 @@ address {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.form-field {
+/* .form-field {
   position: relative;
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 10px;
-}
-.form-label {
+} */
+/* .form-label {
   margin-bottom: 4px;
   text-align: left;
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
-}
-.form-input {
+} */
+/* .form-input {
   height: 40px;
   padding-left: 42px;
   color: var(--primary-text-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border 250ms var(--timing-func);
-}
-.form-field:focus-within .form-input,
+} */
+/* .form-field:focus-within .form-input,
 .form-field:focus-within .textarea,
 .form-field:hover .form-input,
 .form-field:hover .textarea {
@@ -1212,8 +1212,8 @@ address {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
-}
-.textarea {
+} */
+/* .textarea {
   resize: none;
   width: 100%;
   height: 120px;
@@ -1222,8 +1222,8 @@ address {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border 250ms var(--timing-func);
-}
-.form-icon {
+} */
+/* .form-icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -1231,16 +1231,16 @@ address {
   color: var(--black-color);
   fill: currentColor;
   transition: fill 250ms var(--timing-func);
-}
-.form-svg {
+} */
+/* .form-svg {
   width: 18px;
   height: 18px;
-}
-.form-field:focus-within > .form-icon,
+} */
+/* .form-field:focus-within > .form-icon,
 .form-field:hover > .form-icon {
   fill: var(--accent-color);
-}
-.chckbx {
+} */
+/* .chckbx {
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -1258,8 +1258,8 @@ address {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
-.checkbox {
+} */
+/* .checkbox {
   position: absolute;
   appearance: none;
 
@@ -1273,24 +1273,24 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.arg-link {
+} */
+/* .arg-link {
   outline: 0;
   outline-offset: 0;
   text-decoration-line: underline;
   color: var(--accent-color);
   margin-left: 4px;
-}
-.checkbox-agr {
+} */
+/* .checkbox-agr {
   opacity: 0.6;
   transition: opacity 250ms var(--timing-func);
-}
-.checkbox:focus-within + .checkbox-agr,
+} */
+/* .checkbox:focus-within + .checkbox-agr,
 .checkbox:hover + .checkbox-agr {
   opacity: 1;
   cursor: pointer;
-}
-.checkbox-icon {
+} */
+/* .checkbox-icon {
   position: absolute;
   top: 4px;
   left: 0;
@@ -1303,22 +1303,22 @@ address {
   background-size: contain;
   background-origin: content-box;
   transition: background-color 250ms var(--timing-func), background-image 250ms var(--timing-func);
-}
-.checkbox:focus-within ~ .checkbox-icon,
+} */
+/* .checkbox:focus-within ~ .checkbox-icon,
 .checkbox:hover ~ .checkbox-icon {
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.222 1.667v11.666H1.778V1.667h12.444Zm0-1.667H1.778C.8 0 0 .75 0 1.667v11.666C0 14.25.8 15 1.778 15h12.444C15.2 15 16 14.25 16 13.333V1.667C16 .75 15.2 0 14.222 0Z' fill='%232196F3'/%3E%3C/svg%3E");
   background-position: center;
   background-size: contain;
   background-origin: content-box;
   cursor: pointer;
-}
-.checkbox:checked ~ .checkbox-icon {
+} */
+/* .checkbox:checked ~ .checkbox-icon {
   background-color: var(--accent-color);
   background-image: url("data:image/svg+xml,%3Csvg width='15' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m2.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
   background-position: center;
   background-size: contain;
   border-radius: 2px;
-}
+} */
 .order-button.agr {
   opacity: 0.6;
   transition: opacity 250ms var(--timing-func);
