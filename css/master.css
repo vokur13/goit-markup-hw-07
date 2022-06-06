@@ -1116,28 +1116,28 @@ img {
 }
 
 .about__icon--antenna {
-  background-image: url("./../images/svg/icons/antenna.svg");
+  background-image: url("../images/svg/icons/antenna.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .about__icon--astronaut {
-  background-image: url("./../images/svg/icons/astronaut.svg");
+  background-image: url("../images/svg/icons/astronaut.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .about__icon--clock {
-  background-image: url("./../images/svg/icons/clock.svg");
+  background-image: url("../images/svg/icons/clock.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .about__icon--diagram {
-  background-image: url("./../images/svg/icons/diagram.svg");
+  background-image: url("../images/svg/icons/diagram.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
