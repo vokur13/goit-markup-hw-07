@@ -84,15 +84,15 @@
     background-color: getColor('bg-minor');
     border-radius: 4px;
   }
-  &__icon {
-    width: 70px;
-    height: 70px;
-  }
   // &__icon {
   //   width: 70px;
   //   height: 70px;
-  //   @include generateIcons($iconAbout);
   // }
+  &__icon {
+    width: 70px;
+    height: 70px;
+    @include generateIcons($iconAbout);
+  }
 }
 
 /* ------------Section Profile ------------ */
