@@ -55,10 +55,8 @@
   margin-right: calc(-1 * #{$item-gap});
   margin-bottom: calc(-1 * #{$item-gap});
   &__item {
-    width: 370px;
-    // flex-basis: calc(
-    //   (calc (100% / #{$portfolio-card-box-nmbr-row}) - #{$portfolio-card-box-nmbr-row} - 1)
-    // );
+    // width: 370px;
+    // flex-basis: calc((1 / #{$portfolio-card-box-nmbr-row} - #{$portfolio-card-box-nmbr-row} - 1));
     margin-right: $item-gap;
     margin-bottom: $item-gap;
   }
