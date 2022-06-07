@@ -13,9 +13,14 @@
     margin-right: 50px;
   }
   &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    color: getColor('title');
     position: relative;
     display: block;
-    color: getColor('title');
     transition: color 250ms $timing-func;
     &:hover,
     &:focus {
