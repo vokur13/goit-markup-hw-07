@@ -39,10 +39,12 @@ Sections
 */
 
 body {
+  font-family: 'Roboto', 'Tahoma', sans-serif;
+  font-style: normal;
   margin: 0; /* 1 */
-  font-family: system-ui, -apple-system,
-    /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /* 2 */
+  // font-family: system-ui, -apple-system,
+  //   /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial,
+  //   sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /* 2 */
 }
 
 /*
@@ -71,6 +73,10 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr[title] {
   text-decoration: underline dotted;
+}
+
+address {
+  font-style: normal;
 }
 
 /**
